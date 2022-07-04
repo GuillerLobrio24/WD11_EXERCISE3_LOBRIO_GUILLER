@@ -1,0 +1,683 @@
+body{
+    background: linear-gradient(to bottom, #ece9e6, #ffffff);
+}
+#logo1{
+    float: left;
+    padding-left: 170px;
+    opacity: 1;
+    transition: 1s ease;
+}
+#navigationBar2{
+    width: 1100px;
+    height: 100px;
+    position: fixed;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 70px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.navigationBar1 ul{
+    padding-top: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.navigationBar1 li{
+    list-style-type: none;
+    padding: 0px;
+    height: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;  
+}
+.navigationBar1 li a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Century Gothic";
+    text-decoration: none;
+    line-height: 70px;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 10px;
+    opacity: 1;
+    transition: 1s ease;
+}
+.navigationBar1 a:hover {
+    opacity: 1;
+    background-color: black;
+    color: white;
+}
+.div1{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+    color: white;
+    letter-spacing: 5px;
+
+}
+#img1{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    margin-top: 110px;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 0;
+}
+.div2{
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    letter-spacing: 5px;
+    opacity: .8;
+    background-color: rgb(16, 16, 16);
+    width: 60%;
+    padding: 20px;
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px black;
+}
+#div2a{
+    color: white;
+    top: 50%;
+    left: 17%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+}
+.div3{
+    position: relative;
+    border: solid 10px;
+    border-color: white;
+    border-radius: 10px;
+    background: white;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    box-shadow: 0px 0px 50px rgb(69, 66, 66);
+    z-index: 1;
+}
+#div3a{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+}
+.div4{
+    float: center;
+    background-color: white;
+    width: 100%;
+    height: 290px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgb(69, 66, 66);
+}
+.div4 a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Century Gothic";
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}
+.icon4a{
+    border: solid 1px;
+    border-color: white;
+    border-radius: 50px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}                                                                                                                                                                                                                                                   
+#div4a{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: black;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 50px;
+    z-index: 1;
+    text-align: center;                                                                                 
+    background-image: url("Water1.jpg");
+    background-size: cover;                                                                                         
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div4a:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h34a{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic4a{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div4b{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 350px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Water2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div4b:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h34b{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic4b{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div4c{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 650px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Water3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div4c:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h34c{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic4c{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div4d{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 950px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Water4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div4d:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h34d{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic4d{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.div5{
+    float: center;
+    margin-top: 100px;
+    background-color: white;
+    width: 100%;
+    height: 540px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgb(69, 66, 66);
+}
+.div5 a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Century Gothic";
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}
+.icon5a{
+    border: solid 1px;
+    border-color: white;
+    border-radius: 50px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}                                                                                                                                                                                                                                                   
+#div5a{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: black;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 50px;
+    z-index: 1;
+    text-align: center;                                                                                 
+    background-image: url("Land1.jpg");
+    background-size: cover;                                                                                         
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div5a:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h35a{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic5a{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div5b{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 350px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Land2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div5b:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h35b{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic5b{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div5c{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 650px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Land3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div5c:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h35c{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic5c{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div5d{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 950px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Land4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div5d:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h35d{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic5d{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div5e{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 300px;
+    margin-left: 350px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Land5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div5e:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h35e{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic5e{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div5f{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 300px;
+    margin-left: 650px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Land6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div5f:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h35f{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic5f{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.div6{
+    float: center;
+    margin-top: 100px;
+    background-color: white;
+    width: 100%;
+    height: 290px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgb(69, 66, 66);
+}
+.div6 a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Century Gothic";
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}
+.icon6a{
+    border: solid 1px;
+    border-color: white;
+    border-radius: 50px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}                                                                                                                                                                                                                                                   
+#div6a{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: black;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 50px;
+    z-index: 1;
+    text-align: center;                                                                                 
+    background-image: url("Walk1.jpg");
+    background-size: cover;                                                                                         
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div6a:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h36a{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic6a{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div6b{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 350px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Walk2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div6b:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h36b{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic6b{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#div6c{
+    display: inline;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 5px;
+    width: 20%;
+    height: 50px;
+    padding-top: 140px;
+    margin-top: 50px;
+    margin-left: 650px;
+    z-index: 1;
+    text-align: center;
+    background-image: url("Walk3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: 1s ease;
+    box-shadow: 0px 0px 10px black;
+}
+#div6c:hover {
+    opacity: 1 ;
+    color: black;
+}
+#h36c{
+    position: absolute;
+    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.webPic6c{
+    display: block;
+    width: 100%;
+    height: auto;
+}

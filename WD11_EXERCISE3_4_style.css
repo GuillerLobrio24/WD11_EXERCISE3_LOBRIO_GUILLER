@@ -1,0 +1,153 @@
+body{
+    background: linear-gradient(to bottom, #ece9e6, #ffffff);
+}
+#logo1{
+    float: left;
+    padding-left: 170px;
+    opacity: 1;
+    transition: 1s ease;
+}
+#navigationBar2{
+    width: 1100px;
+    height: 100px;
+    position: fixed;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 70px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.navigationBar1 ul{
+    padding-top: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.navigationBar1 li{
+    list-style-type: none;
+    padding: 0px;
+    height: 30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;  
+}
+.navigationBar1 li a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Century Gothic";
+    text-decoration: none;
+    line-height: 70px;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 10px;
+    opacity: 1;
+    transition: 1s ease;
+}
+.navigationBar1 a:hover {
+    opacity: 1;
+    background-color: black;
+    color: white;
+}
+.div1{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+    color: white;
+    letter-spacing: 5px;
+
+}
+#img1{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    margin-top: 110px;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 0;
+}
+.div2{
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    letter-spacing: 5px;
+    opacity: .8;
+    background-color: rgb(1, 0, 0);
+    width: 60%;
+    padding: 20px;
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px black;
+}
+#div2a{
+    color: white;
+    top: 50%;
+    left: 17%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+}
+.div3{
+    position: relative;
+    border: solid 10px;
+    border-color: white;
+    border-radius: 10px;
+    background: white;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 500px;
+    box-shadow: 0px 0px 50px rgb(69, 66, 66);
+    z-index: 1;
+}
+#div3a{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+}
+#email1{
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+}
+#email2{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;   
+}
+#texta1{
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+}
+#texta2{
+    width: 800px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Finlandica', sans-serif;
+}
+#button1{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+}
+#button2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Finlandica', sans-serif;
+}
+#form1{
+    text-decoration: none;
+}
